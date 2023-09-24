@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html dir="rtl">
+<head>
+<title>طلب التحاق بكالوريوس</title>
+
+</head>
+<fieldset>
+<body>
+  
+<center><img src="tafila.jpg" style="width: 100PX ; height: 100PX;"></center>
+<center><h3>طلب التحاق بكالوريوس</h3></center>
+<h3>جامعة الطفيلة التقنية</h3>
+<h3>دائرة القبول والتسجيل</h3>
+<script> function previewImage(event) { var input = event.target; var reader = new FileReader(); reader.onload = function () { var img = document.getElementById("image-preview"); img.src = reader.result; }; reader.readAsDataURL(input.files[0]); } </script> <meta charset="UTF-8"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Document</title> </head> <body> <div class="bor"> <img src="The_Source_Of_Image" alt="" id="image-preview" width="120" height="130"style="float: left;"> <label id="img" for="image" style="padding: -10px;"> <br>صورة الطالب </label> <br><br> </div> <input type="file" name="image" id="image" accept="image/*" onchange="previewImage(event)"style="float: left;"> </body> </html> 
+
+
+
+<table>
+<tr>
+    <th><p class="indent"></p></th>
+<style>p.indent{ padding-left: 8em }</style>
+<th><p class="indent">اسم الاول</p></th>
+    <th><p class="indent">اسم الاب</p></th>
+        <th><p class="indent">اسم الجد</p></th>
+            <th><p class="indent">اسم العاىله</p></th>
+
+</tr>
+</table>
+
+<table>
+    
+    <label for="fname">اسم الطالب  </label><input type="text" name="اسم الطالب">
+    <form>
+<input type="text" name="اسم الطالب">
+<input type="text" name="اسم الطالب">
+<input type="text" name="اسم الطالب">
+</form>
+<table style="padding:10px;margin:5px">
+<form>
+<tr>
+<td>
+الرقم الوطني 
+</td>
+<td>
+<input type="number" name="الرقم الوطني">
+</td>
+<td>
+الجنسية  
+</td>
+<td>
+<input list="الجنسية" name="الجنسية" style="float:left">
+<datalist id="الجنسية">
+  <option value="اردنية">
+  <option value="فلسطنية">
+  <option value="مصرية">
+  <option value="سورية">
+  <optin value="عراقية">
+</datalist>
+</td>
+</tr>
+<tr>
+<td>
+الجنس 
+</td>
+<td> 
+<input type="radio" id="M1" name="fav_major" value="ذكر">
+<label for="M1">الذكر</label>
+<input type="radio"  id="M2" name="fav_major" value="أنثى">
+<label for="M2">الانثى</label>
+</td>
+<td>
+الديانة 
+</td>
+<td>
+<input list="الديانة"  name="الديانة" style="float:left">
+<datalist id="الديانة">
+  <option value="الاسلام">
+  <option value="المسيحية">
+</datalist>
+</td>
+</tr>
+<tr>
+<td>
+مكان الولادة  
+</td>
+<td>
+<input type="text" name="مكان الولادة">
+</td>
+<td>
+عنوان الاقامة  
+</td>
+<td>
+<input type="text" name="عنوان الاقامة" style="float:left">
+</td>
+</tr>
+<tr>
+<td>
+تاريخ الولادة 
+</td>
+<td>
+<input type="datetime-local" name="تاريخ الولادة">
+</td>
+<td>
+رقم الهاتف 
+</td>
+<td>
+<input type="tel" name="رقم الهاتف" placeholder="00962-32250326-2201" pattren="[0-9]{5}-[0-9]{8}-[0-9]{4} style="float:left">
+</td>
+</tr>
+<tr>
+<td>
+الحالة الاجتماعية 
+</td>
+<td>
+<input list="الاجتماعية" name=" الاجتماعية">
+<datalist id="الاجتماعية" valu="متزوج">
+<option value="أعزب">
+<option value="متزوج">
+<option value="مطلق">
+<option value="ارمل">
+</datalist>
+</td>
+<td>
+<label for="email">البريد الالكتروني</label>
+</td>
+<td>
+<input type="email" id="email" name="email  style="float:left">
+</td>
+</tr>
+</table>
+<hr>
+<table>
+<tr>
+<td>
+فرع الثانوية العامة 
+</td>
+<td>
+<input list="الفرع" name="الفرع">
+<datalist id="الفرع">
+  <option value="علمي">
+  <option value="ادبي">
+  <option value="صناعي">
+  <option value="زراعي">
+  <option value="ادارة معلوماتية">
+  <option value="اقتصاد منزلي">
+  <option value="شرعي">
+</datalist>
+</td>
+<td>
+المعدل 
+</td>
+<td>
+<input type="number" name="المعدل" style="float:center">
+</td>
+<td>
+بلد الثانوية العامة 
+</td>
+<td>
+<input type="text" name="بلد الثانوية">
+</td>
+<td>
+السنة  
+</td>
+<td>
+<input list="السنة" name="السنة">
+<datalist id="السنه">
+  <option value="2023">
+  <option value="2022">
+  <option value="2021">
+  <option value="2020">
+  <option value="2019">
+  <option value="2018">
+  <option value="2017">
+  
+</datalist>
+    <d
+</td>
+</tr>
+<tr>
+<td>
+اسم التخصص الذي قبل فيه الطالب  
+</td>
+<td>
+<input type="text" name="التخصص">
+</td>
+<td>
+نوع القبول 
+</td>
+<td>
+<input type="text" name="نوع القبول">
+</td>
+</tr>
+</table>
+<hr>
+<table>
+<tr>
+<td>
+جهة الايفاد 
+</td>
+<td>
+<input type="text" name="جهة الايفاد">
+</td>
+<td>
+التخصص 
+</td>
+<td>
+<input list="التخصص" name="التخصص">
+<datalist id="التخصص">
+  <option value="نظم المعلومات الحاسوبية">
+  <option value="الامن السيبراني">
+  <option value="حوسبة الاجهزة الذكية">
+  <option value="علم الحاسوب/الذكاء الاصطناعي و علم البيانات">
+</datalist>
+</td>
+</tr>
+<tr>
+<td>
+تنسب جهة الايفاد 
+</td>
+<td>
+<input type="radio" id="M1" name="M1">
+<label for="M1">موافقة</label>
+<input type="radio" id="M2" name="M2">
+<label for="M2">عدم الموافقة</label>
+</td>
+<td>
+الختم و التوقيع 
+</td>
+<td>
+<input type="text" name="الختم و التوقيع">
+</td>
+</tr>
+</table>
+<hr>
+<table>
+<tr>
+<td>
+*هل سبق و درست في جامعة أخرى؟
+<label for="M1">(لا)</label>
+<input type="radio" id="M1" name="M1">
+<label for="M2">(نعم)</label>
+<input type="radio" id="M2" name="M2">
+</td>
+<td>
+اسم الجامعة و التخصص 
+</td>
+<td>
+<input list="اسم الجامعة" name="اسم الجامعة">
+<datalist id="اسم الجامعة">
+  <option value="الجامعة الاردنية">
+  <option value="جامعة اليرموك">
+  <option value="جامعة البلقاء التطبيقية">
+  <option value="جامعة مؤتة">
+  <option value="جامعة الطفيلة">
+</datalist>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+سبب ترك الجامعة 
+</td>
+<td> 
+<input list="سبب ترك الجامعة" name="سبب ترك الجامعة">
+<datalist id="سبب ترك الجامعة">
+  <option value="تخرج">
+  <option value="منسحب">
+  <option value="مفصول">
+  <option value="منقطع عن الدراسة">
+</datalist>
+</td>
+</tr>
+<tr>
+<td>
+هل تعمل لدى جهة ما؟
+<label for="M1">(لا)</label>
+<input type="radio" id="M1" name="M1">
+<label for="M2">(نعم)</label>
+<input type="radio" id="M2" name="M2">
+</td>
+<td>
+اذكر اسم الجهة 
+</td>
+<td>
+<input type="text" name="الختم و التوقيع">
+</td>
+</tr>
+<tr>
+<td>
+اقر انا:
+<input type="text" name="اقر انا"
+بأن جميع المعلومات الواردة أعلاه صحيحة و عليه أوقع 
+</td>
+<td>
+<input type="textarea" name=""> 
+
+</td>
+</tr>
+</table><br>
+<fieldset>
+<center><h3><mark>لاستعمال مكتب خدمة العلم(للذكور فقط)</mark></h3></center>
+</fieldset>
+<table>
+<tr>
+<td><br>
+<textarea  placeholder="  اكتب "
+
+
+name="N" rows="8" cols="20">
+  
+</textarea>
+</td><br>
+<td>
+توقيع الموظف
+<input type="text">
+</td>
+</tr>
+</table>
+<fieldset>
+<center><h3><mark>لاستعمال دائرة القبول والتسجيل</mark></h3></center>
+</fieldset>
+<table>
+<tr>
+<td><br>
+اسم التخصص الذي قبل فيه الطالب 
+</td>
+<td>
+<input list="اسم التخصص" name="اسم التخصص">
+<datalist id="اسم التخصص">
+  <option value="نظم المعلومات الحاسوبية">
+  <option value="الامن السيبراني">
+  <option value="حوسبة الاجهزة الذكية">
+  <option value="علم الحاسوب/الذكاء الاصطناعي و علم البيانات">
+</datalist>
+</td>
+<td>
+توقيع الموظف 
+</td>
+<td>
+<input type="text">
+</td>
+</tr>
+<tr>
+<td>
+الرقم الجامعي 
+</td>
+<td>
+<input type="number">
+</td>
+<td>
+توقيع الموظف 
+</td>
+<td>
+<input type="text">
+</td>
+</tr>
+</table>
+<table>
+<tr>
+<td><br>
+<input type="checkbox" name="N">
+الأوراق الثبوتية المطلوبة : 
+</td>
+</tr>
+<tr>
+<td>
+<ol>
+<tr>
+<td>
+  <li>كشف علامات الثانوية العامة النسخة الاصلية. </li>
+</td>
+<td>
+    <input type="file" name="n">
+</td>
+</tr>
+<tr>
+<td>
+  <li>صورة مصدقة عن شهادة الولادة.  </li>
+</td>
+<td>
+    <input type="file" name="n">
+</td>
+</tr>
+<tr>
+<td>
+  <li>صورة مصدقة عن دفتر العائلة.</li>
+</td>
+<td>
+    <input type="file" name="n">
+</td>
+</tr> 
+<tr>
+<td>
+  <li> صورة مصدقة عن هوية الأحوال المدنية.</li>
+</td>
+<td>
+     <input type="file" name="n">
+</td>
+<tr>
+<td>
+  <li>.صورة شخصية عدد2</li> 
+</td>
+<td>
+  <input type="file" name="n">
+</td>
+</tr>
+ </ol>    
+</td>
+</tr>            
+</table>
+</body>
+</fieldset>
+<center>
+<input type="submit" value="Reset" style="width: 100px;height: 50px;">
+<input type="submit" value="Save"style="width: 100px;height: 50px;" >
+<input type="submit" value="Submit" style="width: 100px;height: 50px;">
+</center>
+</form>
+</html>
